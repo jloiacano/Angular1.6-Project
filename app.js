@@ -17,8 +17,7 @@
             .when("/calendar", {templateUrl: "templates/calendar.html"})
             .when("/previousNewsletters", {templateUrl: "templates/previousNewsletters.html"})
             .when("/register", {templateUrl: "templates/register.html"})
-            .when("/login", {templateUrl: "templates/login.html", controller: function () {}});
-        // the last .when also provides an empty controller function ????....
+            .when("/login", {templateUrl: "templates/login.html"});
     }
 
 //    configures ngRoute with the function above.
