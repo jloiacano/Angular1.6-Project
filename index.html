@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="nlecaApp">
+
+<head>
+    <title>North Libertyville Community Association (NLECA)</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pageStyle.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <ul class="">
+        <li><a ng-href="/">Home</a></li>
+        <li><a ng-href="#!people">People</a></li>
+        <li><a ng-href="#!pics">Pics</a></li>
+        <li><a ng-href="#!kids">Kids</a></li>
+        <li><a ng-href="#!resources">Resources</a></li>
+        <li><a ng-href="#!calendar">Calendar</a></li>
+        <li><a ng-href="#!previousNewsletters">Previous Newsletters</a></li>
+        <li><a ng-href="#!register">Register</a></li>
+        <li><a ng-href="#!login">Login</a></li>
+    </ul>
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+    <footer class="container-fluid"> &copy;2017 Loiacano Designs</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
